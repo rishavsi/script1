@@ -1,0 +1,261 @@
+
+body {
+
+background-image: url("r14.jpg");
+
+animation-name: FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-direction: alternate;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+  font-family: "Play", sans-serif;
+  font-size:;
+    background-image: url(https://media.giphy.com/media/S4178TW2Rm1LW/giphy.gif);
+    background-size: ;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size:;
+  
+}
+
+.container {
+  width: 100%;
+}
+
+.packages {
+  margin: 20px;
+  width: 300px;
+  padding-bottom: 1.5em;
+  height: 100%;
+  background-color: #1e2321;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 19px 38px rgba(12, 202, 12, 0.658), 0 15px 12px rgba(180, 43, 98, 0.632);
+  flex-wrap: wrap;
+  color: #f4f4f4;
+}
+
+h1,
+h2 {
+  
+  font-size: 30px;
+    box-shadow: 0 19px 38px rgba(202, 12, 104, 0.596), 0 15px 12px rgba(73, 180, 43, 0.537);
+
+ 
+}
+.text1,
+.text2{
+    color: #fff;
+}
+
+.list li {
+  font-size: 20px;
+  list-style: none;
+  border-bottom: 1px solid #f4f4f4;
+  padding-inline-start: 0;
+  border-width: 1px;
+  padding: 10px;
+ 
+}
+
+.first {
+  margin-top: 40px;
+  border-top: 1px solid #f4f4f4;
+}
+
+.list {
+    box-shadow: 0 19px 38px rgba(202, 12, 12, 0.61), 0 15px 12px rgba(191, 5, 132, 0.929);
+
+  width: 80%;
+}
+
+ol,
+ul {
+  
+  padding: 0;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 0;
+}
+
+.button {
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 1.4em;
+  margin: 15px 15px;
+  border-radius: 50px;
+  color: #f4f4f4;
+  transition: all 0.3s ease 0s;
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: ;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+
+.button1 {
+  background-color: #00cc99;
+  box-shadow: 0 0 10px 0 #00cc99 inset, 0 0 20px 2px #00cc99;
+}
+
+.button2 {
+  background-color: #ff007c;
+  box-shadow: 0 0 10px 0 #ff007c inset, 0 0 20px 2px #ff007c;
+}
+
+.button3 {
+  background-color: #ffae42;
+  box-shadow: 0 0 10px 0 #ffae42 inset, 0 0 20px 2px #ffae42;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+
+input:checked + .slider {
+  background-color: #11e322;
+}
+
+input:focus + .slider {
+    box-shadow: 0 19px 38px rgba(12, 202, 12, 0.441), 0 15px 12px rgba(180, 43, 98, 0.632);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.package-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0 19px 38px rgba(12, 202, 12, 0.441), 0 15px 12px rgba(180, 43, 98, 0.632);
+
+}
+form{
+    margin-left:450px;
+    color: #f4f4f4;
+    
+    background-color: #1e2321;
+
+}
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 { font-size:100px;
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: ;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size:90px;
+  }
+  
+  .title-word-2 {
+    font-size: 2.2em;
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: ;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 90px;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  
+  .container {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    height: 100vh
+  }
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: ;
+    font-size:60px;
+    text-transform: uppercase;
+  }
+  a:link { text-decoration: none; }
+   a:visited { text-decoration: none; }
+   a:hover { text-decoration: none; } 
+  a:active { text-decoration: none; }
+ 
+  
+  h1 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: ;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin:;
+  }
+  h2{
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: ;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin:;
+  }
